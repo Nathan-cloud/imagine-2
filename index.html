@@ -1,468 +1,820 @@
-<!DOCTYPE html>
-<html lang="en">
-
-
-<!-- Mirrored from kingstudio.ro/demos/soft-ui/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Nov 2021 09:19:59 GMT -->
 <head>
     <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Soft UI - Neumorphism Style UI Kit">
-    <meta name="author" content="kingstudio.ro">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Soft UI - Neumorphism Style UI Kit" />
+    <meta name="author" content="kingstudio.ro" />
     <!-- Favicon -->
-    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="icon" href="assets/images/favicon.png" />
     <!-- Site Title -->
     <title>Soft UI - Neumorphism Style UI Kit</title>
     <!-- Bootstrap 4 core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Custom Styles -->
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/nouislider.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&amp;display=swap" rel="stylesheet">
-    <link href="assets/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-
-    <div id="preloader">
-        <div class="preloader">
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
-    <div id="top">
-    </div><!-- / top -->
-
-    <nav class="navbar navbar-expand-lg navbar-light has-sticky-logo main-nav fixed-top">
-        <div class="sticky-nav-activate fixed-top"></div>
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
-            <a class="navbar-brand sticky-logo" href="index.html"><img src="assets/images/logo.png" alt=""></a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-toggle" aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-bar top-bar"></span>
-                <span class="icon-bar middle-bar"></span>
-                <span class="icon-bar bottom-bar"></span>
-                <span class="sr-only">Toggle navigation</span>
-            </button><!-- / navbar-toggler -->
-
-            <div class="collapse navbar-collapse" id="navbar-toggle">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#x" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-archive mr-5 fs-14 va-middle"></i> <span class="va-middle">Components</span></a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown">
-                            <a class="dropdown-item" href="components.html#basic"><i class="fas fa-box-open mr-5"></i> <span>Basic Components</span></a>
-                            <a class="dropdown-item" href="components.html#navigation"><i class="fas fa-bars mr-5"></i> <span>Navigation</span></a>
-                            <a class="dropdown-item" href="components.html#forms"><i class="fas fa-file-alt mr-5"></i> <span>Forms</span></a>
-                            <a class="dropdown-item" href="components.html#cards"><i class="far fa-square mr-5"></i> <span>Cards</span></a>
-                            <a class="dropdown-item" href="components.html#extras"><i class="fas fa-heart mr-5"></i> <span>Extras</span></a>
-                        </div><!-- / dropdown-menu -->
-                    </li><!-- / dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#x" id="dropdown-sections" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-stream mr-5 fs-14 va-middle"></i> <span class="va-middle">Sections</span></a>
-                        <div class="dropdown-menu mega-menu two-columns" aria-labelledby="dropdown-sections">
-                            <div class="row">
-                                <div class="col-lg-6 sub-menu">
-                                    <a class="dropdown-item" href="sections.html#headers"><i class="fas fa-window-maximize mr-5"></i> <span>Headers</span></a>
-                                    <a class="dropdown-item" href="sections.html#features"><i class="fas fa-star mr-5"></i> <span>Features</span></a>
-                                    <a class="dropdown-item" href="sections.html#projects"><i class="fas fa-briefcase mr-5"></i> <span>Projects</span></a>
-                                    <a class="dropdown-item" href="sections.html#posts"><i class="fas fa-list-alt mr-5"></i> <span>Posts</span></a>
-                                    <a class="dropdown-item" href="sections.html#teams"><i class="fas fa-users mr-5"></i> <span>Teams</span></a>
-                                </div><!-- / sub-menu -->
-                                <div class="col-lg-6 sub-menu">
-                                    <a class="dropdown-item" href="sections.html#testimonials"><i class="fas fa-smile mr-5"></i> <span>Testimonials</span></a>
-                                    <a class="dropdown-item" href="sections.html#pricing"><i class="fas fa-dollar-sign mr-5"></i> <span>Pricing</span></a>
-                                    <a class="dropdown-item" href="sections.html#products"><i class="fas fa-tags mr-5"></i> <span>Products</span></a>
-                                    <a class="dropdown-item" href="sections.html#contacts"><i class="fas fa-address-card mr-5"></i> <span>Contacts</span></a>
-                                    <a class="dropdown-item" href="sections.html#footers"><i class="fas fa-copyright mr-5"></i> <span>Footers</span></a>
-                                </div><!-- / sub-menu -->
-                            </div><!-- / row -->
-                        </div><!-- / dropdown-menu -->
-                    </li><!-- / dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#x" id="dropdown-templates" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-images mr-5 fs-14 va-middle"></i> <span class="va-middle">Templates</span></a>
-                        <div class="dropdown-menu mega-menu two-columns" aria-labelledby="dropdown-templates">
-                            <div class="row">
-                                <div class="col-lg-6 sub-menu">
-                                    <a class="dropdown-item" href="templates/landing-page.html"><i class="fas fa-images mr-5"></i> <span>Landing Page</span></a>
-                                    <a class="dropdown-item" href="templates/portfolio.html"><i class="fas fa-th-large mr-5"></i> <span>Portfolio</span></a>
-                                    <a class="dropdown-item" href="templates/project.html"><i class="fas fa-briefcase mr-5"></i> <span>Project</span></a>
-                                    <a class="dropdown-item" href="templates/blog.html"><i class="fas fa-list mr-5"></i> <span>Blog</span></a>
-                                    <a class="dropdown-item" href="templates/post.html"><i class="fas fa-pencil-alt mr-5"></i> <span>Post</span></a>
-                                </div><!-- / sub-menu -->
-                                <div class="col-lg-6 sub-menu">
-                                    <a class="dropdown-item" href="templates/ecommerce.html"><i class="fas fa-shopping-cart mr-5"></i> <span>eCommerce</span></a>
-                                    <a class="dropdown-item" href="templates/product.html"><i class="fas fa-tag mr-5"></i> <span>Product</span></a>
-                                    <a class="dropdown-item" href="templates/404.html"><i class="fas fa-unlink mr-5"></i> <span>404 Page</span></a>
-                                    <a class="dropdown-item" href="templates/login-register.html"><i class="fas fa-sign-in-alt mr-5"></i> <span>Sign In</span></a>
-                                    <a class="dropdown-item" href="templates/account.html"><i class="fas fa-user mr-5"></i> <span>Account</span></a>
-                                </div><!-- / sub-menu -->
-                            </div><!-- / row -->
-                        </div><!-- / dropdown-menu -->
-                    </li><!-- / dropdown -->
-                </ul><!-- / navbar-nav -->
-
-                <ul class="navbar-button p-0 m-0 ml-30">
-                    <li class="nav-item">
-                        <a href="https://wrapbootstrap.com/theme/soft-ui-neumorphism-style-ui-kit-WB0BTD6T1" class="btn btn-sm btn-outline-primary" target="_blank"><i class="fas fa-shopping-cart fs-12 mr-5"></i> <span>BUY NOW</span></a>
-                    </li>
-                </ul>
-            </div><!-- / navbar-collapse -->
-        </div><!-- / container -->
-    </nav><!-- / navbar -->
-
-    <header class="xxl bg-img" style="background-image: url(assets/images/main-bg.jpg)">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h1 class="page-title">Soft UI</h1>
-                    <h5 class="mb-30">Neumorphism Style UI Kit</h5>
-                    <p class="lead mb-25">Soft UI is a premium Bootstrap 4 UI Kit, designed and developed with attention to detail. Soft UI Kit includes 500+ reusable components, 50+ pre-built sections and 10 pre-built templates in neumorphism style with light & dark variations.</p>
-                    <a href="#features" class="btn btn-white-gradient m-5 ml-0 smooth-scroll"><i class="fas fa-sun mr-5"></i> <span>Light UI</span></a>
-                    <a href="dark-ui/index.html" class="btn btn-dark-gradient m-5 ml-0"><i class="fas fa-moon mr-5"></i> <span>Dark UI</span></a>
-                </div><!-- column -->
-                <div class="col-md-6">
-                </div><!-- column -->
-            </div><!-- / row -->
-        </div><!-- / container -->
-    </header>
-
-    <div class="main-container">
-
-        <div id="features" class="container p-y-150">
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="promo-box text-center tablet-lg-top-30 rounded-10 blur d-block">
-                        <i class="fas fa-expand-alt promo-icon d-block mb-25 text-primary"></i>
-                        <h6 class="box-title mb-15">Responsive</h6>
-                        <p class="box-description lead mb-0">Looks great on all screen-sizes.</p>
-                    </div><!-- / promo-box -->
-                </div><!-- / column -->
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="promo-box text-center tablet-lg-top-30 rounded-10 blur d-block">
-                        <i class="fas fa-globe promo-icon d-block mb-25 text-primary"></i>
-                        <h6 class="box-title mb-15">Cross Browser</h6>
-                        <p class="box-description lead mb-0">Works on all modern web-browsers.</p>
-                    </div><!-- / promo-box -->
-                </div><!-- / column -->
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="promo-box text-center rounded-10 blur d-block">
-                        <i class="fas fa-file-code promo-icon d-block mb-25 text-primary"></i>
-                        <h6 class="box-title mb-15">Valid HTML</h6>
-                        <p class="box-description lead mb-0">100% valid HTML code.</p>
-                    </div><!-- / promo-box -->
-                </div><!-- / column -->
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="promo-box text-center mb-0 tablet-lg-top-30 rounded-10 blur d-block">
-                        <i class="fas fa-pencil-ruler promo-icon d-block mb-25 text-primary"></i>
-                        <h6 class="box-title mb-15">Easy to Customize</h6>
-                        <p class="box-description lead mb-0">Fast and easy to customize any element.</p>
-                    </div><!-- / promo-box -->
-                </div><!-- / column -->
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="promo-box text-center mb-0 tablet-lg-top-30 rounded-10 blur d-block">
-                        <i class="fab fa-sass promo-icon d-block mb-25 text-primary"></i>
-                        <h6 class="box-title mb-15">Sass Files</h6>
-                        <p class="box-description lead mb-0">Sass files are included in theme.</p>
-                    </div><!-- / promo-box -->
-                </div><!-- / column -->
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="promo-box text-center mb-0 rounded-10 blur d-block">
-                        <i class="fas fa-life-ring promo-icon d-block mb-25 text-primary"></i>
-                        <h6 class="box-title mb-15">24/7 Support</h6>
-                        <p class="box-description lead mb-0">Fast and friendly Support.</p>
-                    </div><!-- / promo-box -->
-                </div><!-- / column -->
-            </div><!-- / row -->
-        </div><!-- / container -->
-
-        <section id="main-features" class="pt-150 pb-0 bg-img img-bottom" style="background-image: url(assets/images/features-bg.jpg)">
-            <div class="container">
-                <div class="section-title-area text-center mb-150">
-                    <h2 class="section-title">Main Features</h2>
-                    <p class="w-60 m-x-auto mb-0">Soft UI Kit is a modern Bootstrap 4 UI Kit, designed and developed with attention to detail. Includes 500+ reusable components, 50+ pre-built sections and 10 pre-built templates.</p>
-                </div><!-- / section-title-area -->
-                <div class="row">
-                    <div class="col-md-4 tablet-top-30">
-                        <div class="b-5 border-light rounded-10 raised move">
-                           <a href="components.html"><img src="assets/images/components.jpg" alt="components" class="rounded"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-4 tablet-top-30">
-                        <div class="b-5 border-light rounded-10 raised move">
-                           <a href="sections.html"><img src="assets/images/sections.jpg" alt="sections" class="rounded"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-4">
-                        <div class="b-5 border-light rounded-10 raised move">
-                           <a href="templates.html"><img src="assets/images/templates.jpg" alt="templates" class="rounded"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-                </div><!-- / row -->
-            </div><!-- / container -->
-        </section>
-
-        <section id="components" class="lg pb-0">
-            <div class="container text-center">
-                <div class="section-title-area mb-70">
-                    <h3 class="section-title">COMPONENTS</h3>
-                    <h5 class="section-sub-title fs-12 lh-1-5 w-30 m-x-auto">Typography, Buttons, Modals, Checkboxes, Progress-bars, Sliders, Navigations, Forms, Cards and Extras.</h5>
-                </div><!-- / section-title-area -->
-
-                <a href="components.html" target="_blank"><img src="assets/images/all-components.jpg" alt=""></a>
-            </div><!-- / container -->
-        </section>
-
-        <section id="sections" class="lg bg-light-grey">
-            <div class="container-fluid">
-                <div class="section-title-area text-center mb-70">
-                    <h3 class="section-title">SECTIONS</h3>
-                    <h5 class="section-sub-title fs-12 lh-1-5 w-20 m-x-auto">Headers, Features, Projects, Posts, Teams, Testimonials, Pricing, Products, Contacts and Footers</h5>
-                </div><!-- / section-title-area -->
-
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#headers" target="_blank"><img src="assets/images/section1.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#headers" target="_blank"><img src="assets/images/section2.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#features" target="_blank"><img src="assets/images/section3.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#features" target="_blank"><img src="assets/images/section4.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#projects" target="_blank"><img src="assets/images/section5.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#posts" target="_blank"><img src="assets/images/section6.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#posts" target="_blank"><img src="assets/images/section7.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#teams" target="_blank"><img src="assets/images/section8.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#testimonials" target="_blank"><img src="assets/images/section9.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#pricing" target="_blank"><img src="assets/images/section10.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#products" target="_blank"><img src="assets/images/section11.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="sections.html#contacts" target="_blank"><img src="assets/images/section12.jpg" alt="sections" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-                </div><!-- / row -->
-                <div class="text-center mt-30">
-                    <a href="sections.html" target="_blank" class="btn btn-primary"><i class="fas fa-stream mr-5"></i> View All</a>
-                </div>
-            </div><!-- / container-fluid -->
-        </section>
-
-        <section id="templates" class="lg bg-light">
-            <div class="container-fluid">
-                <div class="section-title-area text-center mb-70">
-                    <h3 class="section-title">TEMPLATES</h3>
-                    <h5 class="section-sub-title fs-12 lh-1-5 w-20 m-x-auto">More coming soon!</h5>
-                </div><!-- / section-title-area -->
-
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="templates/landing-page.html" target="_blank"><img src="assets/images/demo1.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="templates/portfolio.html" target="_blank"><img src="assets/images/demo2.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="templates/project.html" target="_blank"><img src="assets/images/demo3.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="templates/blog.html" target="_blank"><img src="assets/images/demo4.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="templates/post.html" target="_blank"><img src="assets/images/demo5.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="templates/ecommerce.html" target="_blank"><img src="assets/images/demo6.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="templates/product.html" target="_blank"><img src="assets/images/demo7.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="templates/404.html" target="_blank"><img src="assets/images/demo8.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="templates/login-register.html" target="_blank"><img src="assets/images/demo9.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="templates/account.html" target="_blank"><img src="assets/images/demo10.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="#x"><img src="assets/images/coming-soon.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="promo-box p-5">
-                           <a href="#x"><img src="assets/images/coming-soon.jpg" alt="templates" class="rounded-5"></a>
-                        </div><!-- / promo-box -->
-                    </div><!-- / column -->
-                </div><!-- / row -->
-                <div class="text-center mt-30">
-                    <a href="templates.html" target="_blank" class="btn btn-primary"><i class="fas fa-images mr-5"></i> View All</a>
-                </div>
-            </div><!-- / container-fluid -->
-        </section>
-
-        <section id="cta" class="xl bg-img" style="background-image: url(assets/images/bg-img4.jpg)">
-            <div class="container text-center relative z-index-1">
-                <h2 class="mb-30">Soft UI - Neumorphism Style UI Kit</h2>
-                <p class="lead fs-18 mb-50 w-90 m-x-auto">Soft UI Kit is not just easy to use, but is also very easy to customize. Building a web-app, a website, changing colors and styling never has been easier. We redesigned most of the default Bootstrap components, added many custom classes, utility classes, custom elements and plugins to build up a beautifully designed, very functional and feature-rich UI Kit.</p>
-                <a href="https://kingstudio.ro/contact.html" target="_blank" class="btn btn-primary m-5"><i class="fas fa-envelope-open mr-5"></i> Contact Us</a>
-                <a href="https://wrapbootstrap.com/theme/soft-ui-neumorphism-style-ui-kit-WB0BTD6T1" target="_blank" class="btn btn-primary m-5"><i class="fas fa-shopping-cart mr-5"></i> Buy Now</a>
-            </div><!-- / container -->
-        </section>
-
-        <section id="cta2" class="big bg-dark-shadow">
-            <div class="container text-center">
-                <h3 class="hidden mb-20">Suggest Feature</h3>
-                <p class="w-50 m-x-auto mb-0">*We are planning to extend the functionality of the UI Kit, add more elements, templates and features, all based on feature requests, if you have ideas, please don't hesitate to suggest a new template, element or feature by contacting us <a href="https://kingstudio.ro/contact.html" target="_blank" style="text-decoration: underline;">here</a>!</p>
-            </div><!-- / container -->
-        </section>
-    </div><!-- / main-container -->
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/fontawesome-all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  
+  <body>
+  
+  
+  
     
-
-    <a href="#top" class="scroll-to-top is-hidden smooth-scroll" data-nav-status="toggle"><i class="fas fa-chevron-up"></i></a>
-
-    <footer>
-        <div class="container">
-            <div class="row v-center mobile-center">
-                <div class="col-md-4 footer-left-area tablet-top">
-                    <p>© Soft UI by <a href="https://kingstudio.ro/" target="_blank">KingStudio</a></p>
-                </div><!-- / footer-left-area -->
-                <div class="col-md-8 footer-right-area">
-                    <p>
-                        <a href="index.html" class="text-link mr-15">Home</a>
-                        <a href="components.html" class="text-link mr-15">Components</a>
-                        <a href="sections.html" class="text-link mr-15">Sections</a>
-                        <a href="templates.html" class="text-link">Templates</a>
+      <header class="xl bg-img bg-fixed" style="background-image: url(assets/images/header-bg2.jpg)">
+          <div class="overlay-lighter"></div>
+          <nav class="navbar navbar-expand-lg navbar-light custom-menu menu-pills absolute top-0 left-0 right-0">
+              <div class="container">
+                  <a class="navbar-brand" href="#x"><img src="assets/images/logo.png" alt=""></a>
+                  
+                  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-toggle-pills" aria-controls="navbar-toggle-pills" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="icon-bar top-bar"></span>
+                      <span class="icon-bar middle-bar"></span>
+                      <span class="icon-bar bottom-bar"></span>
+                      <span class="sr-only">Toggle navigation</span>
+                  </button><!-- / navbar-toggler -->
+  
+                  <div class="collapse navbar-collapse" id="navbar-toggle-pills">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                              <a class="nav-link active" href="#x"><i class="fas fa-home mr-5"></i> <span>Home</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#about"> <span>About</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link mr-0" href="#service"> <span>Services</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link mr-0" href="#process"> <span>Steps</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link mr-0" href="#tour"> <span>Tour Guider</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-0" href="#testimonial"> <span>Testimonial</span></a>
+                        </li>
+                      </ul><!-- / navbar-nav -->
+                  </div><!-- / navbar-collapse -->
+              </div><!-- / container -->
+          </nav><!-- / navbar -->
+          <div class="container">
+              <div class="row v-center">
+                  <div class="col-lg-6 tablet-lg-top-30">
+                      <h2 class="page-title mb-15">Soft UI <span class="text-primary">Pro</span></h2>
+                      <h6 class="secondary-font fs-14 fw-bold mb-40">Join 1.000+ happy users!</h6>
+                      <p class="fs-16 mb-40 tablet-lg-top">A modern Bootstrap 4 UI Kit, designed and developed with attention to detail. 200+ reusable components, easy to use and customize. Launch your next Bootstrap based web-app or website using Soft UI Kit!</p>
+                      <a href="#x" class="btn btn-dark pill m-10 ml-0"><i class="far fa-eye mr-5"></i> Live Demo</a>
+                      <a href="#x" class="btn btn-primary pill"><i class="fas fa-shopping-cart mr-5"></i> Purchase</a>
+                  </div><!-- / column -->
+  
+                  <div class="col-lg-5 offset-lg-1">
+                      <div class="card">
+                          <div class="card-body">
+                              <div class="promo-big promo-icon-bg circle m-y-30 ml-auto mr-auto raised-sm">
+                                  <i class="fas fa-user promo-icon text-primary"></i>
+                              </div><!-- / promo-icon -->
+                              <p class="text-center fs-24 fw-bold mb-30 text-primary">Sign Up</p>
+                              <form class="validation-inner" id="login-form4" novalidate="novalidate">
+                                  <div class="form-group">
+                                      <input type="email" class="form-control pill mb-10" name="usernameLogin4" placeholder="&#xf0e0; Email" style="font-family:'Font Awesome 5 Free', sans-serif !important; font-weight: 400">
+                                  </div><!-- / form-group -->
+  
+                                  <div class="form-group">
+                                      <input type="password" class="form-control pill mb-10" name="passwordLogin4" placeholder="&#xf11c; Password" required style="font-family:'Font Awesome 5 Free', sans-serif !important; font-weight: 400">
+                                  </div><!-- / form-group -->
+  
+                                  <button type="submit" class="btn btn-primary pill d-block w-100 mb-15"><i class="fas fa-sign-in-alt mr-5"></i> Sign Up</button>
+                              </form>
+                          </div><!-- / card-body -->
+                      </div><!-- / card -->
+                  </div><!-- / column -->
+              </div><!-- / row -->
+          </div><!-- / container -->
+      </header>
+  
+      
+      <section class="lg" id="about">
+          <div class="container">
+            <div class="box-w-image promo-box pl-45 pr-45 mb-0">
+              <div class="row">
+                <div
+                  class="
+                    col-md-5
+                    bg-img
+                    box-bg-image
+                    tablet-top-30
+                    rounded
+                    raised
+                  "
+                  style="
+                    background-image: url(assets/images/square5.png);
+                    min-height: 360px;
+                  "
+                >
+                  <p class="mb-0"></p>
+                </div>
+                <!-- / box-bg-image -->
+                <div class="col-md-7 col-md-offset-5">
+                  <div class="box-description pl-15 p-y-20">
+                    <h3 class="mb-30 fw-bold">
+                      <span class="text-primary">About</span> Us
+                    </h3>
+                    <p class="mb-40">
+                      Aliquam a malesuada nulla. Proin consequat est in
+                      dignissim mattis. Curabitur auctor velit vitae nisl
+                      pellentesque pellentesque. Ut sagittis justo sit amet odio
+                      malesuada, quis hendrerit purus vehicula. Vivamus luctus
+                      lacinia odio eget suscipit.
                     </p>
-                </div><!-- / footer-right-area -->
-            </div><!-- / row -->
-        </div><!-- / container -->
-    </footer>
-
-<!-- core JavaScript -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="../../../cdn.jsdelivr.net/npm/popper.js%401.16.0/dist/umd/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- / core JavaScript -->
-
-<!-- preloader -->
-<script src="assets/js/preloader.js"></script>
-<!-- / preloader -->
-
-<!-- smooth scroll -->
-<script src="assets/js/jquery.easing.min.js"></script>
-<script src="assets/js/smooth-scroll.js"></script>
-<!-- / smooth scroll -->
-
-<!-- hide nav -->
-<script src="assets/js/hide-nav.js"></script>
-<!-- / hide nav -->
-
-<!-- tooltips -->
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
-<!-- / tooltips -->
-
-</body>
-
-
-<!-- Mirrored from kingstudio.ro/demos/soft-ui/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Nov 2021 09:20:24 GMT -->
-</html>
+                    <p class="mb-40">
+                      Aliquam a malesuada nulla. Proin consequat est in
+                      dignissim mattis. Curabitur auctor velit vitae nisl
+                      pellentesque pellentesque. Ut sagittis justo sit amet odio
+                      malesuada, quis hendrerit purus vehicula. Vivamus luctus
+                      lacinia odio eget suscipit.
+                    </p>
+                   
+  
+                 
+              </div>
+              <!-- / row -->
+            </div>
+            <!-- box-w-image -->
+          </div>
+          <!-- / container -->
+        </section>
+  
+      <section class="lg" id="service">
+          <div class="container">
+              <div class="section-title-area text-center mb-60">
+                  <h2 class="section-title">Our Services</h2>
+                  <h5 class="section-sub-title">What we do best</h5>
+              </div><!-- / section-title-area -->
+              <div class="row">
+                  <div class="col-sm-6 col-lg-4">
+                      <div class="promo-box promo-center">
+                           <div class="promo-container-big">
+                              <div class="promo-big promo-icon-bg circle b-0 mb-25 raised-sm">
+                                  <i class="fas fa-laptop promo-icon text-primary"></i>
+                              </div><!-- / promo-icon-bg -->
+                              <h6 class="box-title mb-15">Web Design</h6>
+                              <p class="box-description">Quisque in suscipit nulla. Maecenas id pulvinar est. Sed euismod hendrerit.</p>
+                          </div><!-- / promo-container -->
+                      </div><!-- / promo-box -->
+                  </div><!-- / column -->
+  
+                  <div class="col-sm-6 col-lg-4">
+                      <div class="promo-box promo-center">
+                           <div class="promo-container-big">
+                              <div class="promo-big promo-icon-bg circle b-0 mb-25 raised-sm">
+                                  <i class="fas fa-drafting-compass promo-icon text-primary"></i>
+                              </div><!-- / promo-icon-bg -->
+                              <h6 class="box-title mb-15">Logo Design</h6>
+                              <p class="box-description">Quisque in suscipit nulla. Maecenas id pulvinar est. Sed euismod hendrerit.</p>
+                          </div><!-- / promo-container -->
+                      </div><!-- / promo-box -->
+                  </div><!-- / column -->
+  
+                  <div class="col-sm-6 col-lg-4">
+                      <div class="promo-box promo-center">
+                           <div class="promo-container-big">
+                              <div class="promo-big promo-icon-bg circle b-0 mb-25 raised-sm">
+                                  <i class="fas fa-camera promo-icon text-primary"></i>
+                              </div><!-- / promo-icon-bg -->
+                              <h6 class="box-title mb-15">Photography</h6>
+                              <p class="box-description">Quisque in suscipit nulla. Maecenas id pulvinar est. Sed euismod hendrerit.</p>
+                          </div><!-- / promo-container -->
+                      </div><!-- / promo-box -->
+                  </div><!-- / column -->
+  
+  
+              </div><!-- / row -->
+          </div><!-- / container -->
+      </section>
+      
+      <section class="lg" id="process">
+          <div class="container">
+              <div class="section-title-area mb-50">
+                  <h3 class="section-title"><span class="text-primary">Soft</span> UI Kit</h3>
+                  <h5 class="section-sub-title">Features</h5>
+              </div><!-- / section-title-area -->
+              <div class="row v-center">
+                  <div class="col-lg-6 tablet-lg-top-30">
+                      <img src="assets/images/square3.png" alt="" class="rounded">
+                  </div><!-- / column -->
+  
+                  <div class="col-lg-6">
+                      <div class="promo-box promo-left pt-0 pb-20 bg-transparent no-shadow">
+                          <div class="promo-container pl-70">
+                              <p class="mb-50">
+                                  <i class="promo-icon fas fa-pencil-ruler fs-20 p-25 left-20 raised-sm text-primary circle"></i>
+                              </p>
+                              <h6 class="box-title mb-15">Modern Design</h6>
+                              <p class="box-description">Mauris vitae augue turpis. Aenean sed ornare sapien. Sed varius massa id vestibulum lobortis cras imperdiet.</p>
+                          </div><!-- / promo-container -->
+                      </div><!-- / promo-box -->
+  
+                      <div class="promo-box promo-left pt-0 pb-20 bg-transparent no-shadow">
+                          <div class="promo-container pl-70">
+                              <p class="mb-50">
+                                  <i class="promo-icon fas fa-sliders-h fs-20 p-25 left-20 raised-sm text-primary circle"></i>
+                              </p>
+                              <h6 class="box-title mb-15">Easy to Customize</h6>
+                              <p class="box-description">Mauris vitae augue turpis. Aenean sed ornare sapien. Sed varius massa id vestibulum lobortis cras imperdiet.</p>
+                          </div><!-- / promo-container -->
+                      </div><!-- / promo-box -->
+  
+                      <div class="promo-box promo-left pt-0 pb-20 bg-transparent no-shadow">
+                          <div class="promo-container pl-70">
+                              <p class="mb-50">
+                                  <i class="promo-icon fas fa-sync-alt fs-20 p-25 left-20 raised-sm text-primary circle"></i>
+                              </p>
+                              <h6 class="box-title mb-15">Reusable Components</h6>
+                              <p class="box-description">Mauris vitae augue turpis. Aenean sed ornare sapien. Sed varius massa id vestibulum lobortis cras imperdiet.</p>
+                          </div><!-- / promo-container -->
+                      </div><!-- / promo-box -->
+                  </div><!-- / column -->
+              </div><!-- / row -->
+          </div><!-- / container -->
+      </section>
+      <section class="lg bg-white">
+          <div class="container">
+              <div class="section-title-area text-center relative z-index-1 mb-70">
+                  <h3 class="section-title">Latest Posts</h3>
+                  <h5 class="section-sub-title">From our Blog</h5>
+              </div><!-- / section-title-area -->
+              <div class="blog-post mb-70">
+                  <div class="row v-center">
+                      <div class="col-md-5 tablet-top-30">
+                          <a href="#x"><img src="assets/images/img7.jpg" alt="" class="rounded-10"></a>
+                      </div><!-- / column -->
+                      <div class="col-md-7">
+                          <div class="post-content p-x-15">
+                              <a href="#x" class="d-block title-color primary-hover fs-24 fw-bold mb-15">Wild Nature</a>
+                              <p class="fs-12 post-meta-small p-y-15 pl-15 mb-15 border-secondary"><i class="fas fa-calendar-alt mr-5"></i> Jul 22, 2020 <span class="mr-5 ml-5 text-muted">|</span> <i class="fas fa-user mr-5"></i> John <span class="mr-5 ml-5 text-muted">|</span> <i class="fas fa-tag mr-5"></i> Travel</p>
+                              <p class="m-y-30">Praesent sed nibh sed justo semper consequat ac tempor enim. Fusce sed varius odio, quis faucibus nunc. Nulla iaculis nisi bibendum lobortis feugiat. Donec turpis arcu, mattis sit amet odio id, lobortis varius turpis. Nam condimentum est sed urna pulvinar, ut aliquam augue auctor...</p>
+                              <a href="#x" class="btn btn-xs btn-primary pill"><span>Read More</span> <i class="fas fa-arrow-right ml-5"></i></a>
+                          </div><!-- / post-content -->
+                      </div><!-- / column -->
+                  </div><!-- / row -->
+              </div><!-- / blog-post -->
+  
+              <div class="blog-post">
+                  <div class="row v-center">
+                      <div class="col-md-5 tablet-top-30">
+                          <a href="#x"><img src="assets/images/img8.jpg" alt="" class="rounded-10"></a>
+                      </div><!-- / column -->
+                      <div class="col-md-7">
+                          <div class="post-content p-x-15">
+                              <a href="#x" class="d-block title-color primary-hover fs-24 fw-bold mb-15">Cooking Class</a>
+                              <p class="fs-12 post-meta-small p-y-15 pl-15 mb-15 border-secondary"><i class="fas fa-calendar-alt mr-5"></i> Jul 22, 2020 <span class="mr-5 ml-5 text-muted">|</span> <i class="fas fa-user mr-5"></i> Erika <span class="mr-5 ml-5 text-muted">|</span> <i class="fas fa-tag mr-5"></i> Food</p>
+                              <p class="m-y-30">Praesent sed nibh sed justo semper consequat ac tempor enim. Fusce sed varius odio, quis faucibus nunc. Nulla iaculis nisi bibendum lobortis feugiat. Donec turpis arcu, mattis sit amet odio id, lobortis varius turpis. Nam condimentum est sed urna pulvinar, ut aliquam augue auctor...</p>
+                              <a href="#x" class="btn btn-xs btn-primary pill"><span>Read More</span> <i class="fas fa-arrow-right ml-5"></i></a>
+                          </div><!-- / post-content -->
+                      </div><!-- / column -->
+                  </div><!-- / row -->
+              </div><!-- / blog-post -->
+          </div><!-- / container -->
+      </section>
+  
+  
+      <section class="lg bg-img" style="background-image:url(assets/images/bg-img4.jpg)" id="testimonial">
+          <div class="overlay-light"></div>
+          <div class="container">
+              <div class="section-title-area text-center relative z-index-1 mb-70">
+                  <h3 class="section-title">Testimonials</h3>
+                  <!-- <h5 class="section-sub-title">Customer Reviews</h5> -->
+              </div><!-- / section-title-area -->
+              <!-- testimonial carousel -->
+              <div id="testimonial-carousel" class="owl-carousel owl-theme">
+                  <div class="card mb-0">
+                      <div class="card-body text-center">
+                          <img class="mb-30 rounded raised-sm m-x-auto" style="max-width:50%" src="assets/images/mini1.png" alt="">
+                          <h6 class="card-title mb-5">Rylan Tolbert</h6>
+                          <p class="mb-0 fs-10 secondary-font fw-bold text-secondary-dark">Project Manager @ twitter.com</p>
+                          <p class="card-text mt-15 mb-15">"Etiam in gravida ligula. Phasellus a blandit lectus. Sed in libero ac ex."</p>
+                          <p class="ratings mb-0"><i class="fas fa-star fs-12 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-20 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-12 va-middle"></i></p>
+                      </div><!-- / card-body -->
+                  </div><!-- / card -->
+  
+                  <div class="card mb-0">
+                      <div class="card-body text-center">
+                          <img class="mb-30 rounded raised-sm m-x-auto" style="max-width:50%" src="assets/images/mini2.png" alt="">
+                          <h6 class="card-title mb-5">Merida Swan</h6>
+                          <p class="mb-0 fs-10 secondary-font fw-bold text-secondary-dark">Photographer @ unsplash.com</p>
+                          <p class="card-text mt-15 mb-15">"Etiam in gravida ligula. Phasellus a blandit lectus. Sed in libero ac ex."</p>
+                          <p class="ratings mb-0"><i class="fas fa-star fs-12 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="far fa-star fs-20 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-12 va-middle"></i></p>
+                      </div><!-- / card-body -->
+                  </div><!-- / card -->
+  
+                  <div class="card mb-0">
+                      <div class="card-body text-center">
+                          <img class="mb-30 rounded raised-sm m-x-auto" style="max-width:50%" src="assets/images/mini3.png" alt="">
+                          <h6 class="card-title mb-5">Larry Lin</h6>
+                          <p class="mb-0 fs-10 secondary-font fw-bold text-secondary-dark">Web Designer @ facebook.com</p>
+                          <p class="card-text mt-15 mb-15">"Etiam in gravida ligula. Phasellus a blandit lectus. Sed in libero ac ex."</p>
+                          <p class="ratings mb-0"><i class="fas fa-star fs-12 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-20 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-12 va-middle"></i></p>
+                      </div><!-- / card-body -->
+                  </div><!-- / card -->
+  
+                  <div class="card mb-0">
+                      <div class="card-body text-center">
+                          <img class="mb-30 rounded raised-sm m-x-auto" style="max-width:50%" src="assets/images/mini4.png" alt="">
+                          <h6 class="card-title mb-5">Lucy Walker</h6>
+                          <p class="mb-0 fs-10 secondary-font fw-bold text-secondary-dark">Project Manager @ twitter.com</p>
+                          <p class="card-text mt-15 mb-15">"Etiam in gravida ligula. Phasellus a blandit lectus. Sed in libero ac ex."</p>
+                          <p class="ratings mb-0"><i class="fas fa-star fs-12 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star-half-alt fs-20 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-12 va-middle"></i></p>
+                      </div><!-- / card-body -->
+                  </div><!-- / card -->
+  
+                  <div class="card mb-0">
+                      <div class="card-body text-center">
+                          <img class="mb-30 rounded raised-sm m-x-auto" style="max-width:50%" src="assets/images/mini6.png" alt="">
+                          <h6 class="card-title mb-5">Lester Houser</h6>
+                          <p class="mb-0 fs-10 secondary-font fw-bold text-secondary-dark">Software Engineer @ google.com</p>
+                          <p class="card-text mt-15 mb-15">"Etiam in gravida ligula. Phasellus a blandit lectus. Sed in libero ac ex."</p>
+                          <p class="ratings mb-0"><i class="fas fa-star fs-12 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-20 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-12 va-middle"></i></p>
+                      </div><!-- / card-body -->
+                  </div><!-- / card -->
+  
+                  <div class="card mb-0">
+                      <div class="card-body text-center">
+                          <img class="mb-30 rounded raised-sm m-x-auto" style="max-width:50%" src="assets/images/mini5.png" alt="">
+                          <h6 class="card-title mb-5">Rachel Leonard</h6>
+                          <p class="mb-0 fs-10 secondary-font fw-bold text-secondary-dark">Influencer @ instagram.com</p>
+                          <p class="card-text mt-15 mb-15">"Etiam in gravida ligula. Phasellus a blandit lectus. Sed in libero ac ex."</p>
+                          <p class="ratings mb-0"><i class="fas fa-star fs-12 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star-half-alt fs-20 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-12 va-middle"></i></p>
+                      </div><!-- / card-body -->
+                  </div><!-- / card -->
+              </div><!-- / owl-carousel -->
+              <!-- / testimonial carousel -->
+          </div><!-- / container -->
+      </section><!-- / testimonials -->
+  
+      <section class="lg" id="tour">
+          <div class="overlay-light"></div>
+          <div class="container">
+              <div class="section-title-area text-center relative z-index-1 mb-70">
+                  <h3 class="section-title">Popular Tour Guiders</h3>
+                  <!-- <h5 class="section-sub-title">Customer Reviews</h5> -->
+              </div><!-- / section-title-area -->
+              <!-- testimonial slider -->
+              <div id="testimonial-slider" class="owl-carousel owl-theme carousel-controls">
+                  <div class="card bg-transparent b-0 ">
+                      <div class="card-body text-center">
+                          <img class="m-x-auto mb-30 circle raised" style="max-width:100px" src="assets/images/mini6.png" alt="">
+                          <h6 class="card-title mb-5">Larry Lin</h6>
+                          <p class="mb-0 fs-10 fw-regular">Project Manager @ Facebook.com</p>
+                          <p class="card-text m-y-15 m-x-auto w50">Pellentesque interdum mi non ipsum porttitor, quis commodo sapien efficitur. Suspendisse varius ex justo, sed elementum risus consectetur.</p>
+                          <p class="ratings mb-0"><i class="fas fa-star fs-12 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-20 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-12 va-middle"></i></p>
+                      </div><!-- / card-body -->
+                  </div><!-- / card -->
+  
+                  <div class="card bg-transparent b-0 ">
+                      <div class="card-body text-center">
+                          <img class="m-x-auto mb-30 circle raised" style="max-width:100px" src="assets/images/mini5.png" alt="">
+                          <h6 class="card-title mb-5">Merida Swan</h6>
+                          <p class="mb-0 fs-10 fw-regular">Web Designer @ Amazon.com</p>
+                          <p class="card-text m-y-15 m-x-auto w50">Pellentesque interdum mi non ipsum porttitor, quis commodo sapien efficitur. Suspendisse varius ex justo, sed elementum risus consectetur.</p>
+                          <p class="ratings mb-0"><i class="fas fa-star fs-12 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star-half-alt fs-20 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-12 va-middle"></i></p>
+                      </div><!-- / card-body -->
+                  </div><!-- / card -->
+                  <div class="card bg-transparent b-0 ">
+                      <div class="card-body text-center">
+                          <img class="m-x-auto mb-30 circle raised" style="max-width:100px" src="assets/images/mini1.png" alt="">
+                          <h6 class="card-title mb-5">Jacob Ginnish</h6>
+                          <p class="mb-0 fs-10 fw-regular">Web Developer @ Google.com</p>
+                          <p class="card-text m-y-15 m-x-auto w50">Pellentesque interdum mi non ipsum porttitor, quis commodo sapien efficitur. Suspendisse varius ex justo, sed elementum risus consectetur.</p>
+                          <p class="ratings mb-0"><i class="fas fa-star fs-12 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="far fa-star fs-20 va-middle"></i> <i class="fas fa-star va-middle"></i> <i class="fas fa-star fs-12 va-middle"></i></p>
+                      </div><!-- / card-body -->
+                  </div><!-- / card -->
+              </div>
+              <!-- / testimonial-slider -->
+          </div><!-- / container -->
+      </section><!-- / testimonials -->
+  
+  
+  
+      <section class="lg bg-light-grey">
+          <div class="container">
+              <div class="row v-center">
+                  <div class="col-md-6 tablet-top-30">
+                      <h3 class="mb-20">Get in Touch</h3>
+                      <p class="mb-20 w-90">Etiam varius ex vitae rutrum suscipit. Nulla non sagittis augue. Phasellus commodo blandit ligula a tempor. Donec non sapien quis ante hendrerit.</p>
+                      <div class="promo-box p-y-10 p-x-0 promo-left bg-transparent mb-15 no-shadow">
+                          <div class="promo-container-big-sm">
+                              <div class="promo-big icon-sm promo-icon-bg circle b-0 bg-success raised-sm mb-25 left-15">
+                                  <i class="fas fa-phone fa-rotate-90 promo-icon text-white"></i>
+                              </div><!-- / promo-icon-bg -->
+                              <h6 class="box-title mb-15">Call Us</h6>
+                              <p class="box-description mb-5">
+                                  <span class="title-color">Office:</span> <a href="tel:0123456789" class="text-link fw-bold">0123 456 789</a>
+                              </p>
+                              <p class="box-description">
+                                  <span class="title-color">Support:</span> <a href="tel:0123456789" class="text-link fw-bold">0987 654 321</a>
+                              </p>
+                          </div><!-- / promo-container -->
+                      </div><!-- / promo-box -->
+  
+                      <div class="promo-box p-y-10 p-x-0 promo-left bg-transparent mb-0 no-shadow">
+                          <div class="promo-container-big-sm">
+                              <div class="promo-big icon-sm promo-icon-bg circle b-0 bg-primary raise-sm mb-25 left-15">
+                                  <i class="fas fa-envelope promo-icon text-white"></i>
+                              </div><!-- / promo-icon-bg -->
+                              <h6 class="box-title mb-15">Send Email</h6>
+                              <p class="box-description mb-5">
+                                  <span class="title-color">Office:</span> <a href="mailto:info@yoursite.com" class="text-link fw-bold">info@yoursite.com</a>
+                              </p>
+                              <p class="box-description">
+                                  <span class="title-color">Support:</span> <a href="mailto:support@yoursite.com" class="text-link fw-bold">support@yoursite.com</a>
+                              </p>
+                          </div><!-- / promo-container -->
+                      </div><!-- / promo-box -->
+                  </div><!-- / column -->
+                  <div class="col-md-6">
+                      <form class="validation-inner" id="form-validation2" novalidate="novalidate">
+                          <div class="row">
+                              <div class="col-md-6 sub-col-left">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" id="contact-name2" name="inputName2" placeholder="&#xf2bd; Full Name" required="" style="font-family:'Font Awesome 5 Free', sans-serif !important; font-weight: 400">
+                                  </div><!-- / form-group -->
+                              </div><!-- / column -->
+  
+                              <div class="col-md-6 sub-col-right">
+                                  <div class="form-group">
+                                      <input type="email" class="form-control" id="contact-email2" name="inputEmail2" placeholder="&#xf0e0; Email" required="" style="font-family:'Font Awesome 5 Free', sans-serif !important; font-weight: 400">
+                                  </div><!-- / form-group -->
+                              </div><!-- / column -->
+  
+                              <div class="col-12">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" id="contact-subject2" name="inputSubject2" placeholder="&#xf059; Subject" style="font-family:'Font Awesome 5 Free', sans-serif !important; font-weight: 400">
+                                  </div><!-- / form-group -->
+                              </div><!-- / column -->
+                          </div><!-- / row -->
+                          <div class="form-group">
+                              <textarea id="contact-message2" class="form-control" name="inputMessage2" rows="5" placeholder="&#xf4ad; Message" required="" style="font-family:'Font Awesome 5 Free', sans-serif !important; font-weight: 400; min-height: 115px; max-height: 150px;"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-primary btn-submit"><i class="fas fa-paper-plane mr-5"></i> Send Message</button>
+                      </form><!-- / form-group -->
+                  </div><!-- / column -->
+              </div><!-- / row -->
+          </div><!-- / container -->
+      </section>
+  
+  
+      <footer>
+          <div class="footer-widget-area bg-light-shadow">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="widget p-y-10">
+                      <img
+                        src="assets/images/logo.png"
+                        alt=""
+                        class="widget-img mb-20"
+                      />
+                      <p>
+                        Integer pulvinar vel libero ut dignissim. Nullam tincidunt
+                        quam ipsum, condimentum rutrum leo. Vivamus finibus dui sit
+                        amet tortor eleifend bibendum.
+                      </p>
+                      <p class="mb-0">
+                        Quisque imperdiet odio elementum, convallis urna non,
+                        elementum. Sed ut diam sollicitudin.
+                      </p>
+                    </div>
+                    <!-- / widget -->
+                  </div>
+                  <!-- / column -->
+    
+                  <div class="col-md-6">
+                    <div class="widget p-y-10">
+                      <h6 class="widget-title mb-20">Newsletter</h6>
+                      <p class="mb-20">
+                        Quisque aliquet lorem nec dui posuere, scelerisque ultrices
+                        metus aliquam.
+                      </p>
+                      <div class="input-group input-w-overlap-btn mb-0">
+                        <input
+                          type="text"
+                          class="form-control rounded border-primary"
+                          placeholder="Email"
+                        />
+                        <span class="input-group-btn">
+                          <button
+                            class="
+                              btn btn-sm btn-primary
+                              lh-0
+                              overlapping-btn
+                              big-btn
+                              rounded
+                            "
+                            type="button"
+                          >
+                            <i class="far fa-paper-plane mr-5"></i> Subscribe
+                          </button> </span
+                        ><!-- / input-group-btn -->
+                      </div>
+                      <!-- / input-group -->
+                    </div>
+                    <!-- / widget -->
+                  </div>
+                  <!-- / column -->
+    
+                 
+                </div>
+                <!-- / row -->
+              </div>
+              <!-- / container -->
+            </div>
+            <!-- / footer-widget-area -->
+            <footer class="bg-light-shadow bt-1 border-light-grey">
+              <div class="container">
+                <div class="row v-center mobile-center">
+                  <div
+                    class="
+                      col-xl-4
+                      tablet-xl-text-center
+                      footer-left-area
+                      tablet-xl-top
+                    "
+                  >
+                    <p>
+                      ©Travel by
+                      <a href="https://kingstudio.ro/" target="_blank"
+                        >SOLVIT AFRICA</a
+                      >
+                    </p>
+                  </div>
+                  <!-- / footer-left-area -->
+    
+                  <div
+                    class="
+                      col-xl-4
+                      tablet-xl-text-center tablet-xl-top
+                      footer-center-area
+                      text-center
+                    "
+                  >
+                    <p>
+                      <a href="#x" class="text-link mr-15">Home</a>
+                      <a href="#x" class="text-link mr-15">About</a>
+                      <a href="#x" class="text-link mr-15">Services</a>
+                    </p>
+                  </div>
+                  <!-- / footer-center-area -->
+    
+                  <div class="col-xl-4 tablet-xl-text-center footer-right-area">
+                    <p>
+                      <a href="#x" class="pr-10 pl-0"
+                        ><span class="mr-5"><i class="fab fa-facebook-f"></i></span>
+                        <span>Facebook</span></a
+                      >
+                      <a href="#x" class="p-x-10"
+                        ><span class="mr-5"><i class="fab fa-twitter"></i></span>
+                        <span>Twitter</span></a
+                      >
+                      <a href="#x" class="pl-10 pr-0"
+                        ><span class="mr-5"><i class="fab fa-instagram"></i></span>
+                        <span>Instagram</span></a
+                      >
+                    </p>
+                  </div>
+                  <!-- / footer-right-area -->
+                </div>
+                <!-- / row -->
+              </div>
+              <!-- / container -->
+            </footer>
+      </footer>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </body>
+     <!-- core JavaScript -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="../../../cdn.jsdelivr.net/npm/popper.js%401.16.0/dist/umd/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- / core JavaScript -->
+  
+  <!-- preloader -->
+  <script src="assets/js/preloader.js"></script>
+  <!-- / preloader -->
+  
+  <!-- smooth scroll -->
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <script src="assets/js/smooth-scroll.js"></script>
+  <!-- / smooth scroll -->
+  
+  <!-- hide nav -->
+  <script src="assets/js/hide-nav.js"></script>
+  <!-- / hide nav -->
+  
+  <!-- form validation -->
+  <script src="assets/js/jquery.validate.min.js"></script>
+  <script src="assets/js/form-validation.js"></script>
+  <!-- end of form validation -->
+  
+  <!-- Owl Carousel -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script>
+  $('#carousel-auto').owlCarousel({
+      loop:true,
+      margin:0,
+      nav:false,
+      dots:true,
+      items:1,
+      animateIn: 'fadeIn',
+      animateOut: 'fadeOut'
+  })
+  </script>
+  
+  <script>
+  $('#projects-carousel').owlCarousel({
+      loop:true,
+      margin:15,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          }
+      }
+  })
+  </script>
+  
+  <script>
+  $('#posts-carousel').owlCarousel({
+      loop:true,
+      margin:15,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          }
+      }
+  })
+  </script>
+  
+  <script>
+  $('#testimonial-carousel').owlCarousel({
+      loop:true,
+      margin:30,
+      smartSpeed: 700,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          }
+      }
+  })
+  </script>
+  
+  <script>
+  $('#testimonial-slider').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      dots:false,
+      navText:["<i class='fas fa-chevron-left title-color'></i>","<i class='fas fa-chevron-right title-color'></i>"],
+      items:1,
+      smartSpeed: 1200
+  })
+  </script>
+  <!-- / Owl Carousel -->
+  
+  <!-- counter -->
+  <script src="assets/js/jquery.countTo.js"></script>
+   <script>
+        $('.timer').countTo({
+          refreshInterval: 60,
+          formatter: function (value, options) {
+            return value.toFixed(options.decimals);
+          },
+        });
+  </script>
+  <!-- / counter -->
+  
+  <!-- portfolio script -->
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/portfolio.js"></script>
+  <script>
+  $(document).ready(function(){
+      if (Modernizr.touch) {
+          // show the close overlay button
+          $(".close-overlay").removeClass("hidden");
+          // handle the adding of hover class when clicked
+          $(".img").click(function(e){
+              if (!$(this).hasClass("hover")) {
+                  $(this).addClass("hover");
+              }
+          });
+          // handle the closing of the overlay
+          $(".close-overlay").click(function(e){
+              e.preventDefault();
+              e.stopPropagation();
+              if ($(this).closest(".img").hasClass("hover")) {
+                  $(this).closest(".img").removeClass("hover");
+              }
+          });
+      } else {
+          // handle the mouseenter functionality
+          $(".img").mouseenter(function(){
+              $(this).addClass("hover");
+          })
+          // handle the mouseleave functionality
+          .mouseleave(function(){
+              $(this).removeClass("hover");
+          });
+      }
+  });
+  </script>
+  <!-- / portfolio script -->
+  
+  <!-- lightbox -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script>
+  // This will create a single gallery from all elements that have class "lightbox"
+  $('.lightbox').each(function() {
+      $(this).magnificPopup({
+          delegate: 'a.image-lightbox', // the selector for gallery item
+          type: 'image',
+          removalDelay: 500,
+          mainClass: 'mfp-fade',
+          gallery: {
+            enabled:true
+          }
+      });
+  });
+  </script>
+  <!-- / lightbox -->
+  
+  </body>
+  
+  
+  <!-- Mirrored from kingstudio.ro/demos/soft-ui/sections.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Nov 2021 09:21:38 GMT -->
+  </html>
+  
